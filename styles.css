@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #61dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+#days {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#quote {
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#quote-text {
+    margin: 0 20px;
+}
