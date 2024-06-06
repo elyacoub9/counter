@@ -1,33 +1,87 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #ffffffee;
+    background-color: #f0f8ff; /* AliceBlue background for a soft look */
+    color: #333333; /* Darker text for readability */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     margin: 0;
+    padding: 20px;
 }
 
 .container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+}
+
+header {
     text-align: center;
+    border-bottom: 2px solid #ffa500; /* Orange border for a vibrant touch */
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #008080; /* Teal for headers */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Column layout for main */
+    align-items: flex-start;
+}
+
+.sections-row {
+    display: flex;
+    flex-direction: row; /* Row layout for sections */
+    gap: 20px; /* Adds space between the sections */
+    width: 100%;
+}
+
+section {
+    flex: 1; /* Ensures sections take equal space */
+    margin-bottom: 20px;
+}
+
+#countdown-section {
+    text-align: left;
 }
 
 #countdown {
-    font-size: 2rem;
-    margin-top: 20px;
+    font-size: 1.2rem;
 }
 
 #days {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
+    color: #ff6347; /* Tomato color for the countdown numbers */
+}
+
+#dates-section {
+    text-align: right;
+}
+
+#dates-section p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+#quote-section {
+    border-top: 2px solid #ffa500;
+    text-align: center;
+    width: 100%; /* Ensures it takes full width */
+    margin-top: 20px; /* Adds space above the quote section */
 }
 
 #quote {
-    margin-top: 40px;
+    margin-top: 10px;
     font-style: italic;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #4e8c5b; /* SlateBlue for the quote */
 }
 
 #quote-text {

@@ -1,5 +1,5 @@
 function countdown() {
-    const targetDate = new Date("august 31, 2024").getTime();
+    const targetDate = new Date("August 31, 2024").getTime();
     const now = new Date().getTime();
     const timeDifference = targetDate - now;
 
@@ -20,7 +20,6 @@ function displayRandomQuote() {
         "[ هود: 115] وَٱصۡبِرۡ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجۡرَ ٱلۡمُحۡسِنِينَ",
         " [ النحل: 42] ٱلَّذِينَ صَبَرُواْ وَعَلَىٰ رَبِّهِمۡ يَتَوَكَّلُونَ",
         "اللهم إني أسألك الهدى والتقى والعفاف والغنى"
-    
     ];
 
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -29,6 +28,12 @@ function displayRandomQuote() {
     document.getElementById("quote-text").innerText = randomQuote;
 }
 
+function displayDates() {
+    document.getElementById("start-date").innerText = "April 31, 2024";
+    document.getElementById("end-date").innerText = "August 31, 2024";
+}
+
 countdown();
 displayRandomQuote();
+displayDates();
 setInterval(countdown, 1000 * 60 * 60 * 24); // Update every 24 hours

@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Timer with Quotes</title>
+    <title>counter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1></h1>
-        <div id="countdown">
-            <span id="days"></span> day(s) lift 
-        </div>
-        <div id="quote">
-            <h2 id="quote-text"></h2>
-        </div>
+        <header>
+            <h1>Counter</h1>
+        </header>
+        <main>
+            <div class="sections-row">
+                <section id="countdown-section">
+                    <h2>Countdown</h2>
+                    <div id="countdown">
+                        <span id="days"></span> day(s) left
+                    </div>
+                </section>
+                <section id="dates-section">
+                    <h2>Important Dates</h2>
+                    <p>Start Date: <span id="start-date"></span></p>
+                    <p>End Date: <span id="end-date"></span></p>
+                </section>
+            </div>
+            <section id="quote-section">
+                <h2>Quote of the Day</h2>
+                <div id="quote">
+                    <h3 id="quote-text"></h3>
+                </div>
+            </section>
+        </main>
     </div>
     <script src="script.js"></script>
 </body>
