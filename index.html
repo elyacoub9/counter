@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>counter</title>
+    <title>Counter</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,13 @@
                 <section id="countdown-section">
                     <h2>Countdown</h2>
                     <div id="countdown">
-                        <span id="days"></span> day(s) left
+                        <span id="days-left"></span> day(s) left
+                    </div>
+                </section>
+                <section id="since-start-section">
+                    <h2>Since Start Date</h2>
+                    <div id="since-start">
+                        <span id="days-since"></span> day(s) done
                     </div>
                 </section>
                 <section id="dates-section">
@@ -26,7 +33,6 @@
                 </section>
             </div>
             <section id="quote-section">
-                <!-- <h2>Quote of the Day</h2> -->
                 <div id="quote">
                     <h3 id="quote-text"></h3>
                 </div>

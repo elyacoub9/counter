@@ -51,12 +51,22 @@ section {
     text-align: left;
 }
 
-#countdown {
+/* #countdown {
     font-size: 1.2rem;
-}
+} */
 
 #days {
     font-size: 4rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for the countdown numbers */
+}
+#days-since {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for the countdown numbers */
+}
+#days-left {
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ff6347; /* Tomato color for the countdown numbers */
 }
@@ -67,7 +77,7 @@ section {
 
 #dates-section p {
     margin: 5px 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 #quote-section {
