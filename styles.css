@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
+    width: 90%; /* Increased width for the container */
+    max-width: 1200px; /* Increased max-width for the container */
     background-color: #ffffff; /* White background for the container */
     border-radius: 8px; /* Rounded corners for a modern look */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
@@ -51,21 +51,13 @@ section {
     text-align: left;
 }
 
-/* #countdown {
-    font-size: 1.2rem;
-} */
-
 #days {
     font-size: 4rem;
     font-weight: bold;
     color: #ff6347; /* Tomato color for the countdown numbers */
 }
-#days-since {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ff6347; /* Tomato color for the countdown numbers */
-}
-#days-left {
+
+#days-since, #days-left, #collapse-date {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ff6347; /* Tomato color for the countdown numbers */
@@ -96,4 +88,8 @@ section {
 
 #quote-text {
     margin: 0 20px;
+}
+
+#collapse-day-section {
+    text-align: center;
 }
